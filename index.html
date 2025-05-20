@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Global Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>⚡ Global Chat</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="chat-container">
-    <h1>🌐 Global Chat</h1>
-    <div id="chat-box"></div>
-    <form id="chat-form">
-      <input type="text" id="chat-input" placeholder="Type a message..." autocomplete="off" required />
-      <button type="submit">Send</button>
+  <div id="chat-app">
+    <header>
+      <h1>🌐 Global Chat</h1>
+    </header>
+
+    <main>
+      <ul id="messages"></ul>
+    </main>
+
+    <form id="form" autocomplete="off">
+      <input id="input" placeholder="Typ iets cools..." />
+      <button type="submit">🚀</button>
     </form>
   </div>
-  <script src="main.js"></script>
+
+  <script src="chat.js"></script>
 </body>
 </html>
